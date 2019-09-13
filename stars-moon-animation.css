@@ -1,0 +1,42 @@
+/* Gradient Stars and Moon Animation CSS by Staley Stidham */
+
+.container {
+  width: 100%;
+  overflow: hidden;
+  padding: 3rem 1rem 3rem 1rem;
+  position: relative;
+  margin:auto;
+  background: #fff;
+  max-width:50rem;
+  height:auto;
+}
+
+.star1 {
+ animation: scale 2s ease 1.5s infinite alternate;
+  transform-origin: 30% 83%;
+}
+
+.star2 {
+ animation: scale 1.5s ease 1s infinite alternate;
+  transform-origin: 30% 83%;
+}
+
+
+@keyframes scale {
+  0% {
+    fill: #ccc333;
+  }
+  25% {
+        fill: #bfff00;
+  }
+  50% {
+        fill: #00ffff; 
+  }
+  75% {
+        fill: #dcd0ff;
+  }
+  100% {
+        fill: #bf00ff;
+        transform: scale(1.1);
+  }
+}
